@@ -24,9 +24,5 @@ describe('angularjs homepage todo list', function() {
         expect(todoPage.todoList.count()).toEqual(3);
     });
 
-    it('get element by todo', function() {
-        todoPage.todoCheckBoxClick;
-        expect(todoPage.todoListGet(1).getText()).toEqual('learn angular');
-    });
-
+ 
 });
