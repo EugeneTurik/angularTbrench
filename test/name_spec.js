@@ -23,10 +23,6 @@ describe('angularjs homepage Name', function() {
         expect(namePage.getName()).toEqual('Hello Julie123!');
     });
 
-    it('should greet the named Julie+100=3', function() {
-        namePage.fillName('Julie+100=3');
-        expect(namePage.getName()).toEqual('Hello Julie+100=3');
-    });
 
     it('clear the name Jon', function(){
         namePage.fillName('Jon');
